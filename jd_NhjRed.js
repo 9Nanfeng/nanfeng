@@ -15,7 +15,7 @@ export jd_NhjRed_Red_proxy='' 代理池URL多个请用|隔开
 export jd_NhjRed_proxyReceiveCount='10' 使用代理领取账号大于 10 切换ip 填数字
 export jd_NhjRed_Red_taskFlag='true' 执行打卡任务 true=执行 false=不执行 默认执行
 
-*/30 * * * * jd_NhjRed.js
+10 * * * * jd_NhjRed.js
 
 */
 
